@@ -93,15 +93,6 @@
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
-    "laminas/laminas-code": {
-        "version": "3.4.1"
-    },
-    "laminas/laminas-eventmanager": {
-        "version": "3.2.1"
-    },
-    "laminas/laminas-zendframework-bridge": {
-        "version": "1.0.1"
-    },
     "monolog/monolog": {
         "version": "2.0.2"
     },
@@ -109,13 +100,13 @@
         "version": "v4.3.0"
     },
     "ocramius/package-versions": {
-        "version": "1.5.1"
+        "version": "1.4.2"
     },
     "ocramius/proxy-manager": {
-        "version": "2.6.0"
+        "version": "2.2.3"
     },
     "php": {
-        "version": "7.1"
+        "version": "7.2"
     },
     "phpdocumentor/reflection-common": {
         "version": "2.0.0"
@@ -524,10 +515,13 @@
     "twig/twig": {
         "version": "v3.0.1"
     },
-    "webimpress/safe-writer": {
-        "version": "2.0.0"
-    },
     "webmozart/assert": {
         "version": "1.6.0"
+    },
+    "zendframework/zend-code": {
+        "version": "3.4.1"
+    },
+    "zendframework/zend-eventmanager": {
+        "version": "3.2.1"
     }
 }
