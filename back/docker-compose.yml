@@ -79,3 +79,4 @@ networks:
     driver: bridge
 
 # 172.17.0.1 dev.loc mysql.dev.loc memcached.dev.loc
+# 127.0.0.1 dev.loc mysql.dev.loc memcached.dev.loc

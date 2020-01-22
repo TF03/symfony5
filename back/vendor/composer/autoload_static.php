@@ -16,6 +16,14 @@ class ComposerStaticInitdad0d99d5a54ad94611b5d828137883b
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        'cf97c57bfe0f23854afd2f3818abb7a0' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/create_uploaded_file.php',
+        '9bf37a3d0dad93e29cb4e1b1bfab04e9' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_headers_from_sapi.php',
+        'ce70dccb4bcc2efc6e94d2ee526e6972' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_method_from_sapi.php',
+        'f86420df471f14d568bfcb71e271b523' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_protocol_version_from_sapi.php',
+        'b87481e008a3700344428ae089e7f9e5' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_uri_from_sapi.php',
+        '0b0974a5566a1077e4f2e111341112c1' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_server.php',
+        '1ca3bc274755662169f9629d5412a1da' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_uploaded_files.php',
+        '40360c0b9b437e69bcbb7f1349ce029e' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/parse_cookie_header.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -26,6 +34,7 @@ class ComposerStaticInitdad0d99d5a54ad94611b5d828137883b
         'Z' => 
         array (
             'Zend\\EventManager\\' => 18,
+            'Zend\\Diactoros\\' => 15,
             'Zend\\Code\\' => 10,
         ),
         'W' => 
@@ -99,15 +108,19 @@ class ComposerStaticInitdad0d99d5a54ad94611b5d828137883b
             'Symfony\\Bundle\\FrameworkBundle\\' => 31,
             'Symfony\\Bundle\\DebugBundle\\' => 27,
             'Symfony\\Bridge\\Twig\\' => 20,
+            'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'Symfony\\Bridge\\PhpUnit\\' => 23,
             'Symfony\\Bridge\\Monolog\\' => 23,
             'Symfony\\Bridge\\Doctrine\\' => 24,
+            'Spiral\\RoadRunner\\' => 18,
+            'Spiral\\Goridge\\' => 15,
             'Sensio\\Bundle\\FrameworkExtraBundle\\' => 35,
         ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Link\\' => 9,
+            'Psr\\Http\\Message\\' => 17,
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
@@ -156,6 +169,10 @@ class ComposerStaticInitdad0d99d5a54ad94611b5d828137883b
         'Zend\\EventManager\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-eventmanager/src',
+        ),
+        'Zend\\Diactoros\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
         ),
         'Zend\\Code\\' => 
         array (
@@ -413,6 +430,10 @@ class ComposerStaticInitdad0d99d5a54ad94611b5d828137883b
         array (
             0 => __DIR__ . '/..' . '/symfony/twig-bridge',
         ),
+        'Symfony\\Bridge\\PsrHttpMessage\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
+        ),
         'Symfony\\Bridge\\PhpUnit\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/phpunit-bridge',
@@ -425,6 +446,14 @@ class ComposerStaticInitdad0d99d5a54ad94611b5d828137883b
         array (
             0 => __DIR__ . '/..' . '/symfony/doctrine-bridge',
         ),
+        'Spiral\\RoadRunner\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/roadrunner/src',
+        ),
+        'Spiral\\Goridge\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spiral/goridge/php-src',
+        ),
         'Sensio\\Bundle\\FrameworkExtraBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/sensio/framework-extra-bundle/src',
@@ -436,6 +465,11 @@ class ComposerStaticInitdad0d99d5a54ad94611b5d828137883b
         'Psr\\Link\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/link/src',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\EventDispatcher\\' => 
         array (
