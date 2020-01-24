@@ -1,3 +1,5 @@
+# Documentation: https://docs.docker.com/compose
+
 version: '3.5'
 
 services:
@@ -23,8 +25,8 @@ services:
 
     volumes:
       - ".:/srv/www"
-      - ".docker/etc/php/php-dev.ini:/etc/php/7.3/fpm/conf.d/60-dev.ini"
-      - ".docker/etc/php/php-cli.ini:/etc/php/7.3/cli/conf.d/60-dev.ini"
+      - ".docker/etc/php/php-dev.ini:/etc/php/7.4/fpm/conf.d/60-dev.ini"
+      - ".docker/etc/php/php-cli.ini:/etc/php/7.4/cli/conf.d/60-dev.ini"
       - '.docker/etc/roadrunner:/etc/roadrunner'
 
     depends_on:
@@ -79,4 +81,3 @@ networks:
     driver: bridge
 
 # 172.17.0.1 dev.loc mysql.dev.loc memcached.dev.loc
-# 127.0.0.1 dev.loc mysql.dev.loc memcached.dev.loc

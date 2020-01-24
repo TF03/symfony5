@@ -9,7 +9,7 @@ class MyTest extends KernelTestCase
     public function testMyTest()
     {
         $a = [
-            'b' => 1
+            'b' => 1,
         ];
 
         return;
